@@ -98,7 +98,10 @@ class SortingRobot:
         """
         # Fill this out
         # robot is sorting the list
-        # robot is to check LValue with RValue/held value
+        # holding each "item" and compairing it to other values
+        # 1st: check if empty
+        # 2nd: check if only contains 1 element
+        # 3rd: check LValue with RValue/held value
         # if LValue > RValue -> compare method
             # swap positions in list -> swap method
         # if LValue < RValue -> compare method
