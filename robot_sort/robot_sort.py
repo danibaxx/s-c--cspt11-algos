@@ -97,6 +97,17 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
+        # robot is sorting the list
+        # holding each "item" and compairing it to other values
+        # 1st: check if empty
+        # 2nd: check if only contains 1 element
+        # 3rd: check LValue with RValue/held value
+        # if LValue > RValue -> compare method
+            # swap positions in list -> swap method
+        # if LValue < RValue -> compare method
+            # do nothing and move onto the next pair ->  method
+        # base case: once robot has reached the end of l
+        # for i in range(len(l) - 1):
         pass
 
 
